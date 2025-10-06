@@ -1,0 +1,16 @@
+[project]
+name = "typst-mcp"
+version = "0.1.0"
+description = "MCP Server for the Typst Markup Language"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "chromadb>=1.1.0",
+    "fastmcp>=2.12.4",
+    "html2text>=2025.4.15",
+    "msgspec>=0.19.0",
+    "sentence-transformers>=5.1.1",
+    "tiktoken>=0.11.0",
+    "torch>=2.8.0",
+]
